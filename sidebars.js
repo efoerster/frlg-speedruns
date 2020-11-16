@@ -2,6 +2,7 @@
 module.exports = {
   docs: [
     'index',
+    'general',
     {
       type: 'category',
       label: 'Routes',
