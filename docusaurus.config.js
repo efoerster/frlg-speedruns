@@ -3,14 +3,13 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Pokemon Routes',
-  tagline: 'Interactive speedrunning guides of the Pokemon series',
-  url: 'https://efoerster.github.io',
-  baseUrl: '/pokemon-routes/',
+  title: 'FRLG Speedruns',
+  url: 'http://frlg-speedruns.netlify.app',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'efoerster',
-  projectName: 'pokemon-routes',
+  projectName: 'frlg-speedruns',
   plugins: [path.resolve(__dirname, './plugins/ts-loader')],
   themeConfig: {
     colorMode: {
@@ -19,24 +18,23 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Pokemon Routes',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.png',
+        src: 'img/logo.svg',
       },
       items: [
         {
-          href: 'https://www.speedrun.com/pokemon',
-          label: 'SRC Leaderboards',
+          href: 'https://www.speedrun.com/pkmnfrlg',
+          label: 'Leaderboard',
         },
         {
-          href: 'https://discord.gg/0UUw8zDe2hWlwRsm',
+          href: 'https://discord.gg/NjQFEkc',
           position: 'right',
           className: 'header-discord-link',
           'aria-label': 'Discord server',
         },
         {
-          href: 'https://github.com/efoerster/pokemon-routes',
+          href: 'https://github.com/efoerster/frlg-speedruns',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -49,11 +47,11 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          path: 'src',
+          path: 'src/docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
-          editUrl: 'https://github.com/efoerster/pokemon-routes/edit/master/',
+          editUrl: 'https://github.com/efoerster/frlg-speedruns/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

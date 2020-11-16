@@ -64,6 +64,11 @@ main {
     url('../../static/img/background.png');
 }
 
+.navbar__brand {
+  height: 3rem;
+  margin-right: 0px;
+}
+
 div[class*='docSidebarContainer'] {
   border-right: 0px;
 }

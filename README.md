@@ -1,11 +1,11 @@
-[![CI](https://github.com/efoerster/pokemon-routes/workflows/CI/badge.svg)](https://github.com/efoerster/pokemon-routes/actions)
-[![Dependabot](https://api.dependabot.com/badges/status?host=github&repo=efoerster/pokemon-routes)](https://dependabot.com)
+[![CI](https://github.com/efoerster/frlg-speedruns/workflows/CI/badge.svg)](https://github.com/efoerster/frlg-speedruns/actions)
+[![Dependabot](https://api.dependabot.com/badges/status?host=github&repo=efoerster/frlg-speedruns)](https://dependabot.com)
 
-# pokemon-routes
+# frlg-speedruns
 
-A website containing interactive speedrunning guides of the Pokemon series.
+A website containing resources for speedrunning Pokemon FireRed/LeafGreen.
 
-You can find it [here](https://efoerster.github.io/pokemon-routes/).
+You can find it [here](https://frlg-speedruns.netlify.app/).
 
 ## Development
 

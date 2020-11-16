@@ -1,14 +1,18 @@
 /* eslint-disable no-undef */
 module.exports = {
-  docs: {
-    Routes: [
-      'index',
-      {
-        type: 'category',
-        label: 'Generation III',
-        collapsed: false,
-        items: ['frlg/any'],
-      },
-    ],
-  },
+  docs: [
+    'index',
+    {
+      type: 'category',
+      label: 'Routes',
+      collapsed: false,
+      items: ['routes/any-squirtle'],
+    },
+    {
+      type: 'category',
+      label: 'Techniques',
+      collapsed: false,
+      items: ['techniques/starter', 'techniques/spinner'],
+    },
+  ],
 };
