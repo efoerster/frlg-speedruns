@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
   title: 'FRLG Speedruns',
-  url: 'http://frlg-speedruns.netlify.app',
+  url: 'https://frlg-speedruns.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
