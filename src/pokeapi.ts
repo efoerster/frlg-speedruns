@@ -6,8 +6,10 @@ function usePokeApi(name: string | undefined, endpoint: string) {
   const { data } = useQuery(
     name,
     async () => {
-      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-      return await PokeAPI[endpoint].resolve(slugify(name!, { lower: true }));
+      return await PokeAPI[endpoint].resolve(
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        slugify(name!, { lower: true }) + '/',
+      );
     },
     { enabled: !!name },
   );
